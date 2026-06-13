@@ -7,15 +7,12 @@ A lightweight Chrome Extension designed to help users bookmark and track importa
 * 📌 **One-Click Bookmark:** Injects a custom bookmark button seamlessly into the problem UI for quick saving.
 * 💾 **Persistent Storage:** Saves problem titles, links, and metadata securely using Chrome's Sync Storage.
 * 🚀 **Quick Access:** View, open, or delete saved problems directly from the extension popup.
-* 🏷️ **Problem Organization:** Track problems with their difficulty levels and categories.
-* 🔄 **Sync Across Devices:** Bookmarks sync automatically across all your Chrome devices when logged into your Google account.
 * 📊 **Problem Count:** See at a glance how many problems you've bookmarked.
 
 ## 📋 Requirements
 
 * **Browser:** Google Chrome (version 88+)
 * **Website:** maang.in (compatible with the current problem format)
-* **No External Dependencies:** Works offline after initial setup
 
 ## 🚀 Installation (Developer Mode)
 
@@ -80,16 +77,6 @@ Chrome-Extension-Project/
 * Requires the problem page DOM structure to remain consistent
 * Sync features require Chrome profile login
 
-## 🤝 Contributing
-
-Contributions are welcome! To contribute:
-
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/YourFeature`)
-3. Make your changes and commit them (`git commit -m 'Add YourFeature'`)
-4. Push to your branch (`git push origin feature/YourFeature`)
-5. Open a Pull Request
-
 ## 📝 Future Enhancements
 
 * 🔍 Search and filter bookmarks
@@ -111,17 +98,9 @@ This project is open source and available under the MIT License.
 - Check that the extension is enabled in `chrome://extensions/`
 - Verify you're on a valid problem page
 
-**Bookmarks not syncing across devices?**
-- Ensure you're logged into your Google account in Chrome
-- Check your Chrome Sync settings
-
 **Changes not appearing in popup?**
 - Reload the extension in `chrome://extensions/`
 - Clear your browser cache
-
-## 📧 Support & Feedback
-
-For issues, bugs, or feature requests, please open a [GitHub Issue](https://github.com/Dan948142/Chrome-Extension-Project/issues).
 
 ---
 
